@@ -1,0 +1,22 @@
+COLUMNS
+
+| Feature   | What it represents       |
+| --------- | ------------------------ |
+| month/day | When contact happened    |
+| duration  | How long the call went   |
+| campaign  | How many times contacted |
+| pdays     | Recency of past contact  |
+| previous  | Experience/history       |
+| poutcome  | Past success/failure     |
+
+
+campaign: Number of times this customer was contacted during this campaign
+
+pdays: Number of days since the customer was last contacted in a previous campaign
+        '-1' means customer was never contacted before
+
+previous: Number of contacts performed before this campaign
+
+poutcome: Outcome of the previous marketing campaign
+
+
